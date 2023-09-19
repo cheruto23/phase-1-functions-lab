@@ -3,9 +3,9 @@ function distanceFromHqInBlocks(blocks){
     const hqblocks = 42;
     return Math.abs(blocks - hqblocks);
 }
-console.logdistanceFromHqInBlocks(43);
-console.logdistanceFromHqInBlocks(50);
-console.logdistanceFromHqInBlocks(34);
+console.log(distanceFromHqInBlocks(43));
+console.log(distanceFromHqInBlocks(50));
+console.log(distanceFromHqInBlocks(34));
 
 function distanceFromHqInFeet(blocks){
     const hq = 42;
